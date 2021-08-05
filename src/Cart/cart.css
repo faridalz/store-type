@@ -1,0 +1,76 @@
+@font-face {
+  src: url(../Montserrat-Light.ttf);
+  font-family: Mont;
+}
+
+
+
+
+
+
+.divCartItem {
+display: flex;
+justify-content: space-between;
+font-family: Arial, Helvetica, sans-serif;
+border-bottom: 1px solid lightblue;
+padding-bottom: 20px;
+}
+
+
+.divCartItem>div>h4 {
+  font-family: Mont;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+
+.divCartItem>div {
+  flex: 1;
+}
+
+.divCartItem>div>.information, .divCartItem>div>.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.divCartItem>div>.buttons>.MuiButton-root {
+  width: 5px;
+  padding: 12px;
+  min-width: 5px;
+  height: 10px;
+  margin-top: 12px;
+  color: white;
+  background-color: rgb(245, 55, 55);
+
+}
+
+
+.divCartItem>img {
+  max-width: 80px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+
+aside {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  padding: 20px;
+}
+
+
+@media (max-width: 767px) {
+    aside {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 65vw;
+        padding: 20px;
+      }
+}
+
+
+@media (max-width: 767px) {
+  .divCartItem>div>.information>.price1 {
+      display: none;
+  }
+}

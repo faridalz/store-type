@@ -1,0 +1,149 @@
+@font-face {
+    src: url(../Montserrat-Light.ttf);
+    font-family: Mont;
+  }
+
+
+
+
+
+.divItem {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+  border: 0px solid rgb(2, 73, 104);
+  border-radius: 30px;
+  height: auto;
+  background-color:white ;
+}
+
+.divItem>img {
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 20px 20px 0 0;
+    margin-top: 10px;
+}
+
+.divItem>button {
+    color: white;
+    margin-left: 0%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0 0 22px 22px;
+    border-top:  0.1px solid rgb(69, 131, 151);
+    background-color: rgb(2, 73, 104);
+}
+
+.divItem>button:hover {
+    background-color:rgb(3, 40, 56);
+    color: white;
+}
+
+
+.divItem>div {
+    margin-top: 10px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    height: auto;
+    overflow: hidden;
+    transition: 1s;
+    background-color: rgb(2, 73, 104);
+    min-height: 128px;
+}
+
+
+.divItem.active>div {
+    height: auto;
+    transition: 1s;
+}
+
+
+
+.divItem>.more {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: #9284b3;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 1rem;
+    background-color: rgb(2, 73, 104);
+}
+
+.divItem>.more::before {
+    content: 'Read more';
+}
+
+
+.divItem.active .more::before {
+    content: 'Read less';
+}
+
+.divItem>div>h3 {
+    color: rgb(221, 221, 221);
+    font-family: Mont;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.divItem>div>h4 {
+    color: rgb(86, 194, 86);
+}
+
+
+.divItem>div>p {
+    display:none;
+}
+
+
+.divItem.active>div>p {
+    color: rgba(255, 255, 255, 0.808);
+    font-family: Mont;
+    font-weight: 100;
+    font-size: 14px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .divItem {
+        margin-top: 30%;
+        margin-left: 8%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 84%;
+        border: 0px solid rgb(2, 73, 104);
+        border-radius: 30px;
+        height: auto;
+        background-color:white ;
+    }
+
+  
+
+
+      
+    .divItem>button {
+        color: white;
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0 0 24px 24px;
+        border-top:  0.1px solid rgb(69, 131, 151);
+        background-color: rgb(2, 73, 104);
+    }
+
+    .divItem>div {
+        min-height: auto;
+    }
+}

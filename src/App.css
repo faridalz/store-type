@@ -1,0 +1,63 @@
+
+@font-face {
+    src: url(./Montserrat-Light.ttf);
+    font-family: Mont;
+  }
+
+
+
+
+.divMain {
+    margin: 0;
+    padding: 100px;
+    background-color: rgb(235, 229, 229);
+}
+
+
+#divChild {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(4, 55, 78);
+    z-index: 1000;
+}
+
+
+
+#divChild>h4 {
+    position: absolute;
+    top: 4px;
+    left: 8%;
+    color: white;
+    font-size: 20px;
+    font-family: Mont;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+}
+
+
+#iconButton {
+    position: absolute;
+    z-index: 100;
+    right: 12.9%;
+    top: 18px;
+}
+
+
+@media (max-width: 767px) {
+    .divMain {
+        margin: 0;
+        padding: 20px;
+        background-color:  rgb(235, 229, 229);
+    }
+
+    #iconButton {
+        position: fixed;
+        z-index: 100;
+        right: 10px;
+        top: 20px;
+    }
+}

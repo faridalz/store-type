@@ -3,7 +3,7 @@ Online Shopping Website
 - You can reach out to products and the details
 - Add to cart
   
- ## Check out the [Demo](https://faridalz.github.io/store-type/)
+ ## Check out the [Demo](https://erbi-store.netlify.app/)
 
   <br>
 
@@ -29,7 +29,7 @@ Online Shopping Website
 2. Navigate to the project folder
 
    ```sh
-   cd store-type-master
+   cd store-type
    ```
 
 3. Install dependencies

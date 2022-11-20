@@ -9,7 +9,7 @@ Online Shopping Website
 
 ## Home Page
 
-![ERBI Store](https://faridalz.github.io/personal/static/media/store-type.53ad1bb5.PNG)
+![ERBI Store](https://raw.githubusercontent.com/faridalz/store-type/master/public/store-type.53ad1bb5.png)
 
 <br>
 
